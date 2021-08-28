@@ -18,6 +18,7 @@ li {
     justify-content: center;
     text-align: center;
     
+    
 }
 
 ul {
@@ -45,6 +46,7 @@ ul {
   form {
     margin-top: 10px;
     border-radius: 25px;
+    margin: 0 auto;
   
     
   }
@@ -57,4 +59,38 @@ ul {
       background-color: #f0f2f5;
     
   }
+  .container1 {
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 18px auto;
+    width: 482px;
+  }
+  .container2 {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  .search-field {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -2px;
+    width: 398px;
+    height: 36px;
+  }
   
+
